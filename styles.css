@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+body {
+  background-color: rgb(0, 11, 71);
+  font-family: "Baloo 2", cursive;
+  margin: 0;
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  position: relative;
+  z-index: 2;
+  margin-top: -6.7rem;
+}
+
+.images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+}
+
+.tournament-info {
+  padding: 50px;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.team-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.team-logos img {
+  width: 100px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.win-photos {
+  position: relative;
+  z-index: 2;
+  margin-top: 3rem;
+  display: flex; /* Vyskládání obrázků vedle sebe */
+}
+
+.win-photos img {
+  width: 400px; /* Menší velikost obrázků */
+  height: 250px;
+  margin-right: 50px;
+  border-radius: 30px;
+  padding: 25px;
+}/*# sourceMappingURL=styles.css.map */
